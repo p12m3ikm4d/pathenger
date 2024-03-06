@@ -6,7 +6,6 @@ pathenger is a utility package for Python, offering a straightforward way to det
 
 - **Executable Path Detection**: Easily retrieve the path of the executable file when your application is packaged with PyInstaller.
 - **Temporary Directory Path**: Obtain the path to the temporary directory used by PyInstaller in one-file mode, allowing for efficient management of temporary files.
-- **Versatile Application**: Useful in a variety of scenarios, from logging and file management to accessing resources bundled with your application.
 
 ## Installation
 
