@@ -9,7 +9,7 @@ def getExecutablePath():
     if getattr(sys, "frozen", False):
         return os.path.dirname(os.path.abspath(sys.executable))
     else:
-        return os.path.dirname(os.path.abspath(__file__))
+        return os.getcwd()
 
     
 def getTempPath():
@@ -20,4 +20,4 @@ def getTempPath():
     if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
         return sys._MEIPASS
     else:
-        return os.path.dirname(os.path.abspath(__file__))
+        return os.getcwd()
