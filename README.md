@@ -23,10 +23,10 @@ pathenger simplifies the process of getting the executable or script path, and t
 from pathenger import *
 
 # Get the path of the executable or script
-executable_path = getExecutablePath()
+executable_path = get_executable_path()
 print("Executable/Script Path:", executable_path)
 
 # Get the path of the temporary directory (for PyInstaller one-file mode)
-temp_path = getTempPath()
+temp_path = get_temp_path()
 print("Temporary Directory Path:", temp_path)
 ```

@@ -1,7 +1,7 @@
 import os
 import sys
 
-def getExecutablePath():
+def get_executable_path(): 
     '''
     Returns the path of the executable file if the script is running in a bundled executable context.
     If the script is not running as an executable, returns the path of the script file.
@@ -12,7 +12,7 @@ def getExecutablePath():
         return os.getcwd()
 
     
-def getTempPath():
+def get_temp_path():
     '''
     Returns the path of the temporary directory used by a bundled executable.
     If the script is not running as a bundled executable, returns the path of the script file.
